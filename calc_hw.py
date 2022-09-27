@@ -20,6 +20,7 @@ def cacl():
         c = float(input("""Введите c: """))
     else:
         print('Выберите существущее действие из списка')
+        cacl()
 
     if oper == '1':
         print(num1, '+', num2)
