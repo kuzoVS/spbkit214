@@ -40,7 +40,7 @@ def second_task():
             st = st - st * 0.2
             st = st - st * 0.1
 
-        tm = tm + 1
+        tm += 1
         if tm == 60:
             t += 1
         else:
