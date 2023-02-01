@@ -22,6 +22,7 @@ def first_task():
 def second_task():
     t = input("Начало (H:MM) = ")
     t = t.split(":")
+    tm = float(t[1]
     t = float(t[0]) + (float(t[1]) / 60)
     s = int(input("Стоимость = "))
     d = int(input("День(1-7) = "))
