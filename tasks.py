@@ -17,7 +17,6 @@ def func4(a: list, b:list):
     else:
         x = len(b)
     for i in range(x):
-        print(i)
         try:
             c.append([a[i], b[i]])
             if i > (len(a)-1):
